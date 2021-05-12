@@ -1,7 +1,9 @@
 # Project Overview
 In the following project, I am using python to analyze the cost of using an Uber vs leasing or owning a vehicle for the user's main source transportation. I will be using a dataset that consists of six years of Uber ride data to caculate which method would be cheaper for this person, and what the break even cost would be to choose one method over another. 
+
 #****Data Source**
 The following data was found from https://nealmueller.com/uber/, and includes Uber ride data over a six year period. This includes: date of the ride, time of the ride, type of ride/ uber vehicle used, price, start and end time, net travel time, and  milages traveled.
+
 **Steps taken in Project**
 1st step: to import and standardize/clean the data.
  -This included dropping unidentifiable ride types, converting the start and end ride times to datetime function,recaculating net travel time,  dealing with              missing values,and handling variations in the spelling/capitalization of data. 
